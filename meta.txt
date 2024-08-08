@@ -1,0 +1,99 @@
+
+### OverallRebounding
+
+*   **TEAM_ID**: Unique identifier for the team.
+*   **TEAM_NAME**: Name of the team.
+*   **G**: Number of games played.
+*   **OVERALL**: The category of the data (always 'Overall' for this table).
+*   **REB_FREQUENCY**: Frequency of rebounding situations.
+*   **OREB**: Offensive rebounds.
+*   **DREB**: Defensive rebounds.
+*   **REB**: Total rebounds (OREB + DREB).
+*   **C_OREB**: Contested offensive rebounds.
+*   **C_DREB**: Contested defensive rebounds.
+*   **C_REB**: Contested total rebounds (C_OREB + C_DREB).
+*   **C_REB_PCT**: Percentage of contested rebounds.
+*   **UC_OREB**: Uncontested offensive rebounds.
+*   **UC_DREB**: Uncontested defensive rebounds.
+*   **UC_REB**: Uncontested total rebounds (UC_OREB + UC_DREB).
+*   **UC_REB_PCT**: Percentage of uncontested rebounds.
+
+### ShotTypeRebounding
+
+*   **TEAM_ID**: Unique identifier for the team.
+*   **TEAM_NAME**: Name of the team.
+*   **SORT_ORDER**: Order of the data based on shot type range.
+*   **G**: Number of games played.
+*   **SHOT_TYPE_RANGE**: Range of shot types (e.g., Miss 2FG, Miss 3FG).
+*   **REB_FREQUENCY**: Frequency of rebounding situations for each shot type.
+*   **OREB**: Offensive rebounds for each shot type.
+*   **DREB**: Defensive rebounds for each shot type.
+*   **REB**: Total rebounds for each shot type (OREB + DREB).
+*   **C_OREB**: Contested offensive rebounds for each shot type.
+*   **C_DREB**: Contested defensive rebounds for each shot type.
+*   **C_REB**: Contested total rebounds for each shot type (C_OREB + C_DREB).
+*   **C_REB_PCT**: Percentage of contested rebounds for each shot type.
+*   **UC_OREB**: Uncontested offensive rebounds for each shot type.
+*   **UC_DREB**: Uncontested defensive rebounds for each shot type.
+*   **UC_REB**: Uncontested total rebounds for each shot type (UC_OREB + UC_DREB).
+*   **UC_REB_PCT**: Percentage of uncontested rebounds for each shot type.
+
+### NumContestedRebounding
+
+*   **TEAM_ID**: Unique identifier for the team.
+*   **TEAM_NAME**: Name of the team.
+*   **SORT_ORDER**: Order of the data based on the number of contesting rebounders.
+*   **G**: Number of games played.
+*   **REB_NUM_CONTESTING_RANGE**: Range of the number of contesting rebounders (e.g., 0 Contesting Rebounders, 1 Contesting Rebounder, 2+ Contesting Rebounders).
+*   **REB_FREQUENCY**: Frequency of rebounding situations for each range.
+*   **OREB**: Offensive rebounds for each range.
+*   **DREB**: Defensive rebounds for each range.
+*   **REB**: Total rebounds for each range (OREB + DREB).
+*   **C_OREB**: Contested offensive rebounds for each range.
+*   **C_DREB**: Contested defensive rebounds for each range.
+*   **C_REB**: Contested total rebounds for each range (C_OREB + C_DREB).
+*   **C_REB_PCT**: Percentage of contested rebounds for each range.
+*   **UC_OREB**: Uncontested offensive rebounds for each range.
+*   **UC_DREB**: Uncontested defensive rebounds for each range.
+*   **UC_REB**: Uncontested total rebounds for each range (UC_OREB + UC_DREB).
+*   **UC_REB_PCT**: Percentage of uncontested rebounds for each range.
+
+### ShotDistanceRebounding
+
+*   **TEAM_ID**: Unique identifier for the team.
+*   **TEAM_NAME**: Name of the team.
+*   **SORT_ORDER**: Order of the data based on shot distance range.
+*   **G**: Number of games played.
+*   **SHOT_DIST_RANGE**: Range of shot distances (e.g., 0-6 Feet, 7-13 Feet, 13-19 Feet, 19+ Feet).
+*   **REB_FREQUENCY**: Frequency of rebounding situations for each distance range.
+*   **OREB**: Offensive rebounds for each distance range.
+*   **DREB**: Defensive rebounds for each distance range.
+*   **REB**: Total rebounds for each distance range (OREB + DREB).
+*   **C_OREB**: Contested offensive rebounds for each distance range.
+*   **C_DREB**: Contested defensive rebounds for each distance range.
+*   **C_REB**: Contested total rebounds for each distance range (C_OREB + C_DREB).
+*   **C_REB_PCT**: Percentage of contested rebounds for each distance range.
+*   **UC_OREB**: Uncontested offensive rebounds for each distance range.
+*   **UC_DREB**: Uncontested defensive rebounds for each distance range.
+*   **UC_REB**: Uncontested total rebounds for each distance range (UC_OREB + UC_DREB).
+*   **UC_REB_PCT**: Percentage of uncontested rebounds for each distance range.
+
+### RebDistanceRebounding
+
+*   **TEAM_ID**: Unique identifier for the team.
+*   **TEAM_NAME**: Name of the team.
+*   **SORT_ORDER**: Order of the data based on rebounding distance range.
+*   **G**: Number of games played.
+*   **REB_DIST_RANGE**: Range of rebounding distances (e.g., 0-3 Feet, 3-6 Feet, 6-10 Feet, 10+ Feet).
+*   **REB_FREQUENCY**: Frequency of rebounding situations for each distance range.
+*   **OREB**: Offensive rebounds for each distance range.
+*   **DREB**: Defensive rebounds for each distance range.
+*   **REB**: Total rebounds for each distance range (OREB + DREB).
+*   **C_OREB**: Contested offensive rebounds for each distance range.
+*   **C_DREB**: Contested defensive rebounds for each distance range.
+*   **C_REB**: Contested total rebounds for each distance range (C_OREB + C_DREB).
+*   **C_REB_PCT**: Percentage of contested rebounds for each distance range.
+*   **UC_OREB**: Uncontested offensive rebounds for each distance range.
+*   **UC_DREB**: Uncontested defensive rebounds for each distance range.
+*   **UC_REB**: Uncontested total rebounds for each distance range (UC_OREB + UC_DREB).
+*   **UC_REB_PCT**: Percentage of uncontested rebounds for each distance range.

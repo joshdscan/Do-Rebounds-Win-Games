@@ -1,0 +1,15 @@
+With the completion of the 2024 NBA season and somewhat lackluster playoffs, we aim to take a deep dive into how the NBA champions separated themselves from their competition. The Boston Celtics, with an impressive 16 wins in 19 games, lived up to their preseason hype as one of the most favored teams to win the Larry O'Brien Trophy.
+
+Upon reading this article, it was mentioned that rebounds had a significant impact on deciding game outcomes during these playoffs. Is this true? I am not too sure. With several household name players sidelined due to injuries, could it be that the lack of star power resulted in a more fundamental and rudimentary game?
+
+In this analysis, we propose to take an in-depth look at the impact of rebounding and whether or not it was a deciding factor in these playoffs or merely a confounding effect. The game of basketball is dynamic, and while rebounds may play a role, other factors such as the pace of play could also influence game outcomes.
+
+To better understand the claim about rebounds, we initially examined the data provided by the NBA API over this year's playoffs. We separated this data by team and aggregated their performances based on wins and losses. We accounted for the limited sample sizes of some teams, such as the Phoenix Suns and New Orleans Pelicans, who failed to record any wins. Despite this, we utilized as many data points as possible.
+
+Starting with a simple analysis, a violin plot on winning teams' performance in offensive rebounds (OREBs), defensive rebounds (DREBs), and total rebounds (TREBs) in wins and losses revealed that winning teams secured more rebounds, particularly on the defensive glass. These teams also demonstrated more consistent rebounding with a higher median and lower standard deviation.
+
+However, this basic analysis wasn't as insightful as hoped, so we delved deeper into rebounding metrics. The following observations provided deeper insights:
+
+Winning teams did a better job securing offensive rebounds within 10 feet.
+Winning teams were much more consistent in securing uncontested rebounds.
+That being said, can we be sure that this was what caused these teams to win, or was it a result of something else?
