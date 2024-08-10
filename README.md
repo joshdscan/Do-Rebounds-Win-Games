@@ -13,11 +13,3 @@ Data was sourced from the NBA API, providing detailed statistics throughout the 
 ## Tools
 - **Python**
 - **Libraries:** Pandas, Matplotlib, Seaborn
-
-## Quick Start
-Clone the repo and install dependencies:
-```bash
-git clone https://your-repository-link.git
-cd your-project-directory
-pip install -r requirements.txt
-python analysis_script.py
