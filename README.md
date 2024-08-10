@@ -8,8 +8,7 @@ Data was sourced from the NBA API, providing detailed statistics throughout the 
 
 ## Analysis Approach
 - **Data Visualization:** Used violin plots to compare rebounds in games won vs. lost.
-- **Further Investigation:** Analyzed specific metrics like offensive rebounds within 10 feet and consistency in uncontested rebounds.
-
+- 
 ## Tools
 - **Python**
 - **Libraries:** Pandas, Matplotlib, Seaborn
